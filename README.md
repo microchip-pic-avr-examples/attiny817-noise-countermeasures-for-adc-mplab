@@ -19,8 +19,8 @@ This repository will explain how and when to use the powerful noise suppression 
 
 ## Software Used
 
-- [MPLAB® X IDE](http://www.microchip.com/mplab/mplab-x-ide) v5.30 or newer
-- [MPLAB® XC8](http://www.microchip.com/mplab/compilers) 2.10 or a newer
+- [MPLAB® X IDE](http://www.microchip.com/mplab/mplab-x-ide) v5.40 or later
+- [MPLAB® XC8](http://www.microchip.com/mplab/compilers) 2.20 or a later
 - [MPLAB® Data Visualizer](https://gallery.microchip.com/packages/MPLAB-Data-Visualizer-Standalone(Windows)/) v1.1.793 or newer
 
 ## Hardware Used
