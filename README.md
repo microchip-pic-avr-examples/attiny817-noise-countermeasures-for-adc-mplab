@@ -21,7 +21,7 @@ This repository will explain how and when to use the powerful noise suppression 
 
 - [MPLAB® X IDE](http://www.microchip.com/mplab/mplab-x-ide) v5.40 or later
 - [MPLAB® XC8](http://www.microchip.com/mplab/compilers) 2.20 or a later
-- [MPLAB® Data Visualizer](https://gallery.microchip.com/packages/MPLAB-Data-Visualizer-Standalone(Windows)/) v1.1.793 or newer
+- [MPLAB® Data Visualizer](https://gallery.microchip.com/packages/MPLAB-Data-Visualizer-Standalone(Windows)/) v1.1.793 or later
 
 ## Hardware Used
 
@@ -55,7 +55,7 @@ This repository will explain how and when to use the powerful noise suppression 
 
 5. Build the solution and program the ATtiny817. 
     
-6. Open *MPLAB Data Visualizer*. Configure *MPLAB® Data Visualizer* to plot a graph of the ADC samples that are being sent over USART. Refer to [MPLAB® Data Visualizer User's Guide](https://www.microchip.com/DS-50003001) if you need assistance doing this. 
+6. Open *MPLAB Data Visualizer*. Configure *MPLAB® Data Visualizer* to plot a graph of the ADC samples that are being sent over USART. Refer to [MPLAB® Data Visualizer User's Guide](https://www.microchip.com/DS50003001) if you need assistance doing this. 
 
 7. Try plotting different signals by combining the use of random noise, periodic noise, sample accumulation and sampling delay. You do this by reconfiguring the macro definitions before building and programming the device. You may have to reconnect to the COM-port before the new graph will be plotted in *MPLAB® Data Visualizer*.
 
