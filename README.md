@@ -15,7 +15,7 @@ This repository will explain how and when to use the powerful noise suppression 
 ## Software Used
 
 - [MPLAB® X IDE](http://www.microchip.com/mplab/mplab-x-ide) 5.40 or later
-- [ATtiny DFP](http://packs.download.atmel.com/) 1.6.316 or later
+- [ATtiny DFP](http://packs.download.atmel.com/) 2.2.89 or later
 - [MPLAB® XC8](http://www.microchip.com/mplab/compilers) 2.20 or a later
 - [AVR/GNU C Compiler](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers) 5.4.0 or later
 - [MPLAB® Data Visualizer](https://gallery.microchip.com/packages/MPLAB-Data-Visualizer-Standalone(Windows)/) 1.1.793 or later
