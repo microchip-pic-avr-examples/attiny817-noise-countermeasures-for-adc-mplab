@@ -3,28 +3,28 @@
     "category": "com.microchip.ide.project",
     "content": {
         "metaDataVersion": "1.1.0",
-        "name": "com.microchip.mcu8.mplabx.project.",
-        "version": " ",
-        "displayName": "  ",
-        "projectName": "",
-        "shortDescription": "",
+        "name": "com.microchip.mcu8.mplab.project.attiny817-noise-countermeasures-for-adc-mplab",
+        "version": "1.0.0",
+        "displayName": "Noise Countermeasures for ADC Applications",
+        "projectName": "attiny817-noise-countermeasures-for-adc-mplab",
+        "shortDescription": "This repository will explain how and when to use the powerful noise suppression features available on the Microchip tinyAVR® 1-series and megaAVR® 0-series ADCs.",
         "ide": {
-            "name": "",
-            "semverRange": ""
+            "name": "MPLABX",
+            "semverRange": ">=5.40"
         },
         "compiler": [
-			{
-				"name": "",
-				"semverRange": ""
-			}
-		],
+            {
+                "name": "XC8",
+                "semverRange": "^2.29"
+            }
+        ],
         "dfp": {
-            "name": "",
-            "semverRange": ""
+            "name": "ATtiny_DFP",
+            "semverRange": "^2.2.89"
         },
         "configurator": {
-            "name": "",
-            "semverRange": ""
+            "name": "START",
+            "semverRange": ">=1.7.360"
         },
         "device": {
             "metaDataVersion": "1.0.0",
@@ -32,37 +32,53 @@
             "content": {
                 "metaDataVersion": "1.0.0",
                 "category": "com.microchip.device",
-                "name": "",
+                "name": "ATtiny817",
                 "versionRange": "*"
             }
         },
-        "author": "",
+        "author": "Microchip",
         "subcategories": [
-            "",
+            "START",
             [
-               "Peripherals", ""
+                "Peripherals",
+                "ADC"
             ],
             [
-               "Peripherals", ""
-            ]            			
+                "Peripherals",               
+                "TCA"
+            ],
+            [
+                "Development Kit",
+                "ATtiny817 Xplained Pro"
+            ],
+            [
+                "Supporting Tools",     
+                "MPLAB Data Visualizer"
+            ],
+            [
+                "Supporting Tools",            
+                "Atmel Data Visualizer"
+            ]
+
         ],
         "peripherals": [
-            "",""
+            "ADC",
+            "TCA"              
         ],
         "keywords": [
             "",
-            ""			
+            ""
         ],
-		"additionalData": {
-			"longDescription": {
-				"metaDataVersion": "1.0.0",
-				"category": "com.microchip.portal.fileRef",
-				"content": {
-					"metaDataVersion": "1.0.0",
-					"fileName": "./README.md",
-					"mimeType": "text/markdown"
-				}
-			}
-		}
-	}
+        "additionalData": {
+            "longDescription": {
+                "metaDataVersion": "1.0.0",
+                "category": "com.microchip.portal.fileRef",
+                "content": {
+                    "metaDataVersion": "1.0.0",
+                    "fileName": "./README.md",
+                    "mimeType": "text/markdown"
+                }
+            }
+        }
+    }
 }

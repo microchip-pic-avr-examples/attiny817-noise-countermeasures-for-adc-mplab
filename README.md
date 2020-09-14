@@ -19,7 +19,7 @@ This repository will explain how and when to use the powerful noise suppression 
 - [MPLAB® XC8](http://www.microchip.com/mplab/compilers) 2.20 or a later
 - [AVR/GNU C Compiler](https://www.microchip.com/mplab/avr-support/avr-and-arm-toolchains-c-compilers) 5.4.0 or later
 - [MPLAB® Data Visualizer](https://gallery.microchip.com/packages/MPLAB-Data-Visualizer-Standalone(Windows)/) 1.1.793 or later
-- [Atmel Studio Data Visualizer](https://www.microchip.com/mplab/avr-support/data-visualizer) 2.20.674 or later
+- [Atmel Data Visualizer](https://www.microchip.com/mplab/avr-support/data-visualizer) 2.20.674 or later
 
 ## Hardware Used
 
@@ -39,7 +39,7 @@ This repository will explain how and when to use the powerful noise suppression 
 5. Build the solution and program the ATtiny817. 
 
 6. Plot the ADC results:
-    - In *Atmel Studio* go to *Tools* and open *Data Visualizer*. Configure *Data Visualizer* to plot a graph of the ADC samples. Refer to Appendix A in the Application Note [AN2551 - Noise Countermeasures for ADC Applications](https://www.microchip.com/DS00002551) on how to do this. Refer to [Atmel Studio Data Visualizer User's Guide](https://www.microchip.com/DS40001903) for help with *Data Visualizer*.
+    - In *Atmel Studio* go to *Tools* and open *Data Visualizer*. Configure *Data Visualizer* to plot a graph of the ADC samples. Refer to Appendix A in the Application Note [AN2551 - Noise Countermeasures for ADC Applications](https://www.microchip.com/DS00002551) on how to do this. Refer to [Atmel Data Visualizer User's Guide](https://www.microchip.com/DS40001903) for help with *Data Visualizer*.
 
     - Alternatively: Open [*MPLAB® Data Visualizer*](https://gallery.microchip.com/packages/MPLAB-Data-Visualizer-Standalone(Windows)/). Load the workspace with the configuration file that followed the code example. Make sure you are using the right COM-port. Refer to [MPLAB® Data Visualizer User's Guide](https://www.microchip.com/DS50003001) for help with *Data Visualizer*.
 
