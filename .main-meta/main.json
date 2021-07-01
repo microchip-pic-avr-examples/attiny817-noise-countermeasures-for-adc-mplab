@@ -4,18 +4,18 @@
     "content": {
         "metaDataVersion": "1.1.0",
         "name": "com.microchip.mcu8.mplabx.project.attiny817-noise-countermeasures-for-adc-mplab",
-        "version": "1.0.0",
+        "version": "1.0.1",
         "displayName": "Noise Countermeasures for ADC Applications",
         "projectName": "attiny817-noise-countermeasures-for-adc-mplab",
         "shortDescription": "This repository will explain how and when to use the powerful noise suppression features available on the Microchip tinyAVR® 1-series and megaAVR® 0-series ADCs.",
         "ide": {
-            "name": "MPLABX",
-            "semverRange": ">=5.40"
+            "name": "MPLAB X",
+            "semverRange": ">=5.40.0"
         },
         "compiler": [
             {
                 "name": "XC8",
-                "semverRange": "^2.29"
+                "semverRange": "^2.29.0"
             }
         ],
         "dfp": {
@@ -38,13 +38,12 @@
         },
         "author": "Microchip",
         "subcategories": [
-            "START",
             [
                 "Peripherals",
                 "ADC"
             ],
             [
-                "Peripherals",               
+                "Peripherals",
                 "TCA"
             ],
             [
@@ -52,21 +51,19 @@
                 "ATtiny817 Xplained Pro"
             ],
             [
-                "Supporting Tools",     
+                "Supporting Tools",
                 "MPLAB Data Visualizer"
             ],
             [
-                "Supporting Tools",            
+                "Supporting Tools",
                 "Atmel Data Visualizer"
             ]
-
         ],
         "peripherals": [
             "ADC",
-            "TCA"              
+            "TCA"
         ],
-        "keywords": [
-        ],
+        "keywords": [],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
