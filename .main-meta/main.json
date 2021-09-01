@@ -63,7 +63,15 @@
             "ADC",
             "TCA"
         ],
-        "keywords": [],
+        "keywords": [
+            "Free-Running",
+            "Filter",
+            "Sample Accumulation",
+            "PWM",
+            "Atmel Data Visualizer",
+            "MPLAB Data Visualizer",
+            "START"
+        ],
         "additionalData": {
             "longDescription": {
                 "metaDataVersion": "1.0.0",
